@@ -1,0 +1,272 @@
+
+#espacoJogo{
+    position: relative;
+    top:-1075px;
+    left: 100px;;
+    display: block;
+    width: 1010px;
+    height: 490px;
+    background-color:  #964b00;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    padding-left: 10px;
+    text-align: left;
+    color: rgb(7, 7, 7);
+}
+
+#titulo{
+    text-align: center;
+    color: rgb(22, 151, 5);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+#jogadores{
+    font-size:10pt;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    width: 260px;
+    height: 200px;
+    background-color: aliceblue;
+
+}
+#listaDeJogadores{
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: #964b00;
+
+}
+#form-adiciona{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:rgb(236, 234, 234) solid 1px;
+    width: 300px;
+    height: 40px;
+    padding: auto;
+
+}
+#TelaDeMovimentações{
+    position: relative;
+    top:30px;
+    text-align: center;
+    border:#3f3d3d 1px;
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    background-color: #964b00;
+
+}
+#ultimaMovimentacao{
+    border:#0a0909 solid 1px;
+    width: 250px;
+    height: 40px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: aliceblue;
+}
+#statusDoJogo{
+    border:#0a0909 solid 1px;
+    width: 250px;
+    height: 200px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: aliceblue;
+
+}
+
+
+h2{
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+    border:rgb(255, 253, 253) solid 10px;
+    width: 300px;
+}
+h3{
+    color: aliceblue;
+}
+
+h4{
+    color: aliceblue;
+}
+
+label{
+    color: aliceblue;
+}
+
+#acoesDoJogo{
+    position: relative;
+    left: 350px;
+    top: -450px;
+    padding:3px;
+    width: 600px;
+    height: 480px;
+    background-color: #964b00;
+    
+}
+
+.valor{
+    width: 80px;
+}
+#form-depositar{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border:rgb(255, 253, 253) solid 5px;
+    width: 300px;
+    height: 130px;
+}
+#btnDepositar{
+ margin-left: 100px;   
+}
+
+#form-sacar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:rgb(247, 243, 243) solid 5px;
+    width: 300px;
+    height: 130px;
+}
+#btnSacar{
+ margin-left: 120px;   
+}
+
+
+#form-transferir{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:rgb(255, 246, 246) solid 5px;
+    width: 300px;
+    height: 165px;
+}
+#btnTransferir{
+    margin-top: -15px;
+    margin-left: 105px;   
+}
+
+.conta{
+    width: 53px;
+}
+
+#colunastatusjogo{
+    position: relative;
+    padding: auto;
+    top: -475px;
+    left: 320px;
+    width: 320px;
+    height: 455px;
+    background: #964b00;
+    
+}
+
+#casasdotabuleiro button{
+   
+    font-size: 30px;
+    
+}
+#casasdotabuleiro h2{
+    font-size: 20px;
+}
+
+.botoes-superiores{
+ position: relative;
+top:30px;
+left:-30px;
+font-size:10px;
+}
+
+.botoes-direito{
+   width: 30px;
+   height:560px;
+   position: relative;
+   display: block;
+   top:60px;
+   left:1120px;
+   font-size:10px;
+   }
+
+   .botoes-inferiores{
+    top: -445px;
+    left:-100px;
+    position: relative;
+    width: 1200px;
+
+}
+
+.botoes-esquerdo{
+
+    width: 30px;
+    height:560px;
+    position: relative;
+    display: block;
+    top:-495px;
+    left:50px;
+    font-size:10px;
+    }
+
+
+
+.botoes-superiores button{
+    width:20px;
+    height:20px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 55px;
+    font-size: 5px;
+    color: aliceblue;
+}
+
+.botoes-direito button{
+    width:20px;
+    height:20px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    font-size: 5px;
+    color: aliceblue;
+}
+
+.botoes-inferiores button{
+    width:20px;
+    height:20px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255)k;
+    margin-left: 55px;   
+    font-size: 5px;
+    color: aliceblue;
+}
+
+.botoes-esquerdo button{
+    width:20px;
+    height:20px;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    font-size: 5px;
+    color: aliceblue;
+}
+
+#status-titulo{
+    margin: 10px;
+}
+
+#espaco-dados{
+margin: auto;
+ background-color: #964b00;
+ width: 120px;
+ height:120px;
+
+}
+
+#desenvolvedor{
+    position: relative;
+}

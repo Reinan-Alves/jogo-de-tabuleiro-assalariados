@@ -1,0 +1,7 @@
+-Como Jogar Assalariados-
+
+-Sobre o jogo-
+
+É um jogo de tabuleiro no qual ao inseir os nomes dos participantes os mesmos recebem contas ficticias
+com um valor de 1 sálario mínimo(correspondente ao periodo de atualização do jogo).
+

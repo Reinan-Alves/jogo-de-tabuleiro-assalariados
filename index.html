@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuleiro do jogo</title>
+    
+    <link rel="stylesheet" type="text/css" href="estilo/tabuleiro_estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/pecas_estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/painel_estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+
+  <section class="container">
+    <h1 id="titulo">A$$alariado$</h1>
+    <h3 class="textoPecas">&nbsp &nbsp Peças do jogo<br> ⇙</h3>
+    <a href="comojogar.txt" target="_blank" class="comojogar"><h3>Regras e Como Jogar</h3></a>
+    
+
+    
+
+
+    <div id="espaco-tabuleiro">
+        
+        <div class="botoes-superiores">
+            
+              <button id="casa1">01</button>
+              <button id="casa2">02</button>
+              <button id="casa3">03</button>
+              <button id="casa4">04</button>
+              <button id="casa5">05</button>
+              <button id="casa6">06</button>
+              <button id="casa7">07</button>
+              <button id="casa8">08</button>
+              <button id="casa9">09</button>
+              <button id="casa10">10</button>
+              <button id="casa11">11</button>
+              <button id="casa12">12</button>
+              <button id="casa13">13</button>
+              <button id="casa14">14</button>
+              <button id="casa15">15</button>
+        
+        </div>
+
+        <div class="botoes-direito">
+
+        <button id="casa16">16</button>
+        <button id="casa17">17</button>
+        <button id="casa18">18</button>
+        <button id="casa19">19</button>
+        <button id="casa20">20</button>
+        <button id="casa21">21</button>
+        <button id="casa22">22</button>
+        <button id="casa23">23</button>
+        <button id="casa24">24</button>
+        <button id="casa25">25</button>
+
+        </div>
+
+    <div class="botoes-esquerdo">
+
+              <button id="casa50">50</button>
+              <button id="casa49">49</button>
+              <button id="casa48">48</button>
+              <button id="casa47">47</button>
+              <button id="casa46">46</button>
+              <button id="casa45">45</button>
+              <button id="casa44">44</button>
+              <button id="casa43">43</button>
+              <button id="casa42">42</button>
+              <button id="casa41">41</button>
+
+
+    </div>
+
+        <div id="espacoJogo">
+           
+                  <div id="listaDeJogadores">
+    
+                      <h2 id="lista-de-hogadores-titulo">LISTAS DE JOGADORES</h2>
+    
+                      <form id="form-adiciona">
+                            <label>NOME:</label>
+                            <input id="nome" type="text" placeholder="Nome do jogador" class="campo">
+                            <button id="adicionar-jogador">Criar</button>
+                      </form>
+    
+                      <div id="jogadores"></div>
+    
+                  </div>
+    
+              
+    
+            <div id="TelaDeMovimentações">
+              <h2>ÚLTIMA AÇÃO</h2>
+              <div id="ultimaMovimentacao"></div>
+              
+    
+            </div>
+    
+    
+    
+    
+    
+            <div id="acoesDoJogo">
+    
+                  
+    
+                   <form id="form-depositar">
+                         <h3>DEPOSITO</h3>
+                        <label>Valor</label>
+                        <input id="inputDeposito" type="number" placeholder="valor dep." class="valor">
+                        <label>Conta</label>
+                        <input id="inputContaDeposito" type="number" placeholder="conta" class="conta">
+                        <br>
+                        <br>
+                        <button id="btnDepositar">DEPOSITAR</button>
+                   </form>
+    
+    
+    
+                   <form id="form-sacar">
+                    <h3>SAQUE</h3>
+                   <label>Valor</label>
+                   <input id="inputSaque" type="number" placeholder="valor saq." class="valor">
+                   <label>Conta</label>
+                   <input id="inputContaSaque" type="number" placeholder="conta" class="conta">
+                   <br>
+                   <br>
+                   <button id="btnSacar">sacar</button>
+              </form>
+    
+    
+    
+              <form id="form-transferir">
+                <h3>TRANSFERÊNCIA</h3>
+               <label>Valor</label>
+               <input id="inputValorDaTransferencia" type="number" placeholder="valor transf." class="valor"><br>
+               <label>De Conta</label>
+               <input id="inputContaEmissora" type="number" placeholder="conta" class="conta">
+               <label>Para Conta</label>
+               <input id="inputContaReceptora" type="number" placeholder="conta" class="conta">
+               <br>
+               <br>
+               <button id="btnTransferir">Transferir</button>
+              </form>
+            <div id="colunastatusjogo">
+    
+              <h2 id="status-titulo">STATUS DO JOGO</h2>
+             
+              <div id="statusDoJogo"></div>
+              <h5>Balance os Dados:</h5>
+              <div id="espaco-dados">
+                
+                <img src="estilo/imagens/face1.png" alt="dado" id="dado">
+
+              </div>
+
+              <h5 id="desenvolvedor">GAME DESENVOLVIDO POR<br>REINAN ALVES</h5>
+
+              </div>
+          
+        </div>
+        <div class="botoes-inferiores">
+
+             
+              <button id="casa40">40</button>
+              <button id="casa39">39</button>
+              <button id="casa38">38</button>
+              <button id="casa37">37</button>
+              <button id="casa36">36</button>
+              <button id="casa35">35</button>
+              <button id="casa34">34</button>
+              <button id="casa33">33</button>
+              <button id="casa32">32</button>
+              <button id="casa31">31</button>
+              <button id="casa30">30</button>
+              <button id="casa29">29</button>
+              <button id="casa28">28</button>
+              <button id="casa27">27</button>
+              <button id="casa26">26</button>
+
+              
+
+            </div>
+            <section id="caixaDePecas">
+     
+              <div class="draggable bloco vermelho"></div>
+              <div class="draggable bloco azul"></div>
+              <div class="draggable bloco amarelo"></div>
+              <div class="draggable bloco rosa"></div>
+              <div class="draggable bloco branco"></div>
+     
+          </section>
+
+ </div>
+    </div>
+  </section>
+  
+   <script src="codigo/painel_programacao.js"></script>
+   <script src="codigo/pecas_programacao.js"></script>
+   <script src="codigo/dado.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   
+</body>
+</html>
