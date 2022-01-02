@@ -54,18 +54,18 @@ btn9.addEventListener("click", function () {
 var btn10 = document.querySelector("#casa10");
 btn10.addEventListener("click", function () {
   alert(
-    "Parabéns! você conseguio vender aquele movél velho na olx, receba o depósito de R$50,00"
+    "Parabéns! você conseguio vender aquele movél velho na olx, receba o depósito de R$30,00"
   );
 });
 
 var btn11 = document.querySelector("#casa11");
 btn11.addEventListener("click", function () {
-  alert("É melhor pagar a conta de Luz antes de cortem,saque R$150,00");
+  alert("É melhor pagar a conta de Luz antes de cortem,saque R$250,00");
 });
 
 var btn12 = document.querySelector("#casa12");
 btn12.addEventListener("click", function () {
-  alert("Chegou a triste hora de pagar o aluguel,saque R$250,00");
+  alert("Chegou a triste hora de pagar o aluguel,saque R$350,00");
 });
 
 var btn13 = document.querySelector("#casa13");
@@ -78,7 +78,7 @@ btn13.addEventListener("click", function () {
 var btn14 = document.querySelector("#casa14");
 btn14.addEventListener("click", function () {
   alert(
-    "Espero que tenha se planejado bem, seu FGTS está liberado, receba R$300,00"
+    "Hoje é dia de ir na Praia com a familia, ponha a mão no bolso e saque R$50,00 pra contribuir"
   );
 });
 
@@ -89,7 +89,9 @@ btn15.addEventListener("click", function () {
 
 var btn16 = document.querySelector("#casa16");
 btn16.addEventListener("click", function () {
-  alert("Voce precisou faltar ao trabalho e um amigo te cobriu,saque R$100,00");
+  alert(
+    "Voce faltou ao trabalho, escolha alguém pra te cobrir e transfira R$100,00"
+  );
 });
 
 var btn17 = document.querySelector("#casa17");
@@ -133,7 +135,9 @@ btn23.addEventListener("click", function () {
 
 var btn24 = document.querySelector("#casa24");
 btn24.addEventListener("click", function () {
-  alert("seu auxilio emergêncial de R$375,00 está liberado");
+  alert(
+    "seu auxilio emergêncial está liberado,após pagar unas dividas sobraram R$50,00, deposite em sua conta"
+  );
 });
 
 var btn25 = document.querySelector("#casa25");
